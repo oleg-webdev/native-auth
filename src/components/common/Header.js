@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-const Header = ({title}) => {
+const Header = ({ title }) => {
 
   const { textStyle, viewStyle } = styles;
   return (
@@ -10,9 +10,9 @@ const Header = ({title}) => {
     </View>
   );
 
-}
+};
 
-export {Header};
+export { Header };
 
 const styles = StyleSheet.create({
   viewStyle: {

@@ -13,7 +13,7 @@ const Button = ({ onPressCallback, children }) => {
 
 };
 
-export {Button};
+export { Button };
 
 const styles = StyleSheet.create({
   buttonStyle: {

@@ -1,9 +1,9 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 
 const Card = (props) => {
 
-  const {containerStyle} = styles;
+  const { containerStyle } = styles;
 
   return (
     <View style={containerStyle}>
@@ -13,7 +13,7 @@ const Card = (props) => {
 
 };
 
-export {Card};
+export { Card };
 
 const styles = StyleSheet.create({
   containerStyle: {
@@ -26,8 +26,8 @@ const styles = StyleSheet.create({
     shadowOpacity: .1,
     shadowRadius: 2,
     elevation: 1,
-    marginLeft:5,
-    marginRight:5,
+    marginLeft: 5,
+    marginRight: 5,
     marginTop: 10,
   }
 });
